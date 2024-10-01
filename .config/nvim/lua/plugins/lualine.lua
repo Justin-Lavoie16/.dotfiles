@@ -1,10 +1,10 @@
 -- luacheck: ignore vim
 return {
-    "nvim-lualine/luanine.vim",
+    "nvim-lualine/lualine.nvim",
     config = function()
         require("lualine").setup({
             options = {
-                theme = "gruvbox_dark"
+                theme = "github_dark_default"
             },
         })
     end
